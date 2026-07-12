@@ -1,0 +1,17 @@
+{
+  "name": "accounting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modernized single-file Node.js accounting app migrated from COBOL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --runInBand"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
